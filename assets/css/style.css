@@ -1,7 +1,5 @@
 *{
     box-sizing: border-box;
-    
-    
 }
 html, body{
     margin: 0;
@@ -9,13 +7,44 @@ html, body{
     font-family: "Roboto", sans-serif;
 }
 
-
-
-
-#emmeAnimation{
-    height: 50vh;
-    text-align: right;
+header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #ffc017;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px black;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
+nav{
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+nav ul li{
+    align-items: baseline;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+nav button{
+    background-color: #191919;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+
+
 
 #title{
     font-family: "Spectral", serif;
